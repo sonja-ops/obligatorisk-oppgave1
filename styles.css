@@ -1,3 +1,42 @@
+h1{
+    font-size: 50px;
+    margin: 0;
+}
+h2{
+    font-size: 30px;
+    margin: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    margin-right: 20px;
+}
+li{
+    list-style: none;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
 .heroContainer{
     width: 100%;
     display: flex;
@@ -16,3 +55,11 @@
     gap: 10px;
 }
 
+.CTAbutton{
+    width: 150px;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 2opx;
+    color: white;
+    font-weight: 700;
+}
