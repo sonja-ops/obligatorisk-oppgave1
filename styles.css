@@ -1,6 +1,7 @@
 h1{
     font-size: 50px;
     margin: 0;
+    color: aqua;
 }
 h2{
     font-size: 30px;
@@ -34,7 +35,9 @@ li{
 
 footer{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: left;
+    padding: 30px;
 }
 
 .heroContainer{
@@ -70,5 +73,5 @@ footer{
     padding: 20px;
 }
 .secondImg{
-    width: 40%;
+    width: 30%;
 }
