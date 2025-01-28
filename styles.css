@@ -45,7 +45,7 @@ footer{
 }
 
 .heroImg{
-    width: 50%;
+    width: 40%;
 }
 
 .heroText{
@@ -62,4 +62,13 @@ footer{
     border-radius: 2opx;
     color: white;
     font-weight: 700;
+}
+.secondContainer{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+}
+.secondImg{
+    width: 40%;
 }
